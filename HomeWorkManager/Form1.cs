@@ -131,6 +131,7 @@ namespace HomeWorkManager
             cboChooseAssignment.Items.Remove(cboChooseAssignment.SelectedItem);
             cboChooseAssignment.Text = "";
             DrawList();
+
         }
 
         private void btnFinishAssignment_Click(object sender, EventArgs e)

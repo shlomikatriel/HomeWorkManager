@@ -155,7 +155,9 @@
             // 
             // pictureBox1
             // 
-            this.pictureBox1.Image = global::HomeWorkManager.Properties.Resources.funny;
+            this.pictureBox1.ErrorImage = null;
+            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
+            this.pictureBox1.InitialImage = null;
             this.pictureBox1.Location = new System.Drawing.Point(594, 12);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(188, 164);
@@ -247,7 +249,7 @@
             this.Controls.Add(this.btnSubmit);
             this.Controls.Add(this.btnExit);
             this.Controls.Add(this.gboAddAssignment);
-            this.Icon = (System.Drawing.Icon)(resources.GetObject("$this.Icon"));
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximizeBox = false;
             this.Name = "frmMaster";
             this.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
