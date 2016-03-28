@@ -1,2 +1,2 @@
 # HomeWorkManager
-A tool that manages your homework - hebew
+A tool that manages your homework - hebrew
