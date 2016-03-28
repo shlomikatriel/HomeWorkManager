@@ -37,11 +37,11 @@ namespace HomeWorkManager
                 if (value != "")
                     _assignmentName = value;
                 else
-                    _assignmentName = "חסר שם קורס";
+                    _assignmentName = "חסר שם מטלה";
             }
         }
         public bool IsFinished { get; set; }
-        public DateTime SubmissionDeadline { get; set; }
+        public DateTime SubmissionDeadline { get; }
         //methods
         public Assignment(DateTime submissionDeadline, string courseName, string assignmentName)
         {

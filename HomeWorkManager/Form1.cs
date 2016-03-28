@@ -120,7 +120,6 @@ namespace HomeWorkManager
                     "המטלה הוספה בהצלחה.",
                     "שיגעון!",
                     MessageBoxButtons.OK, MessageBoxIcon.Asterisk, MessageBoxDefaultButton.Button3, MessageBoxOptions.RtlReading);
-
             DrawList();
         }
 
