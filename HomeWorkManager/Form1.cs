@@ -139,5 +139,6 @@ namespace HomeWorkManager
             ((Assignment)cboChooseAssignment.SelectedItem).IsFinished = true;
             DrawList();
         }
+
     }
 }

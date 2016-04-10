@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="AssignmentsData" targetNamespace="http://tempuri.org/AssignmentsData.xsd" xmlns:mstns="http://tempuri.org/AssignmentsData.xsd" xmlns="http://tempuri.org/AssignmentsData.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection ConnectionStringObject="Dsn=dBASE Files" IsAppSettingsProperty="false" Modifier="Assembly" Name="ODBC.DBASE.C:\MyProjects\HomeWorkManager" Provider="System.Data.Odbc" />
+        </Connections>
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="AssignmentsData" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="True" msprop:Generator_DataSetName="AssignmentsData" msprop:Generator_UserDSName="AssignmentsData">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="dbAssignments" msprop:Generator_TableClassName="dbAssignmentsDataTable" msprop:Generator_TableVarName="tabledbAssignments" msprop:Generator_TablePropName="dbAssignments" msprop:Generator_RowDeletingName="dbAssignmentsRowDeleting" msprop:Generator_RowChangingName="dbAssignmentsRowChanging" msprop:Generator_RowEvHandlerName="dbAssignmentsRowChangeEventHandler" msprop:Generator_RowDeletedName="dbAssignmentsRowDeleted" msprop:Generator_UserTableName="dbAssignments" msprop:Generator_RowChangedName="dbAssignmentsRowChanged" msprop:Generator_RowEvArgName="dbAssignmentsRowChangeEvent" msprop:Generator_RowClassName="dbAssignmentsRow">
+          <xs:complexType>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
